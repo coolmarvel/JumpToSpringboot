@@ -21,12 +21,12 @@ import com.mysite.sbb.answer.AnswerForm;
 import com.mysite.sbb.user.SiteUserDto;
 import com.mysite.sbb.user.UserService;
 
-import lombok.RequiredArgsConstructor;
+import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 
+@Data
 @Slf4j
 @RequestMapping("/question")
-@RequiredArgsConstructor
 @Controller
 public class QuestionController {
 
