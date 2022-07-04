@@ -10,9 +10,9 @@ import com.mysite.sbb.DataNotFoundException;
 import com.mysite.sbb.question.QuestionDto;
 import com.mysite.sbb.user.SiteUserDto;
 
-import lombok.RequiredArgsConstructor;
+import lombok.Data;
 
-@RequiredArgsConstructor
+@Data
 @Service
 public class AnswerService {
 
