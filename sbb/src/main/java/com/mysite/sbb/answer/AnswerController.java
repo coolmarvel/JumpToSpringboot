@@ -20,10 +20,10 @@ import com.mysite.sbb.question.QuestionService;
 import com.mysite.sbb.user.SiteUserDto;
 import com.mysite.sbb.user.UserService;
 
-import lombok.RequiredArgsConstructor;
+import lombok.Data;
 
+@Data
 @RequestMapping("/answer")
-@RequiredArgsConstructor
 @Controller
 public class AnswerController {
 
