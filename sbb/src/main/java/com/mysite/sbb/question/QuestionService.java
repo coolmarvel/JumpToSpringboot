@@ -25,9 +25,9 @@ import com.mysite.sbb.answer.Answer;
 import com.mysite.sbb.user.SiteUser;
 import com.mysite.sbb.user.SiteUserDto;
 
-import lombok.RequiredArgsConstructor;
+import lombok.Data;
 
-@RequiredArgsConstructor
+@Data
 @Service
 public class QuestionService {
 
