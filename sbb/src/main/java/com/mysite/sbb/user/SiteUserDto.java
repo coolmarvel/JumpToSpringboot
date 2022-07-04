@@ -1,13 +1,11 @@
 package com.mysite.sbb.user;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
-@Getter
-@Setter
+@Data
 public class SiteUserDto {
-    private Long id;
-    private String username;
-    private String password;
-    private String email;
+  private Long id;
+  private String username;
+  private String password;
+  private String email;
 }
